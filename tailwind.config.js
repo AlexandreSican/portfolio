@@ -5,7 +5,8 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'max': '1500px' 
+      'max': '1500px',
+      'ultra': '2000px'
     },
     extend: {
       colors: {

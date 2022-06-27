@@ -1,0 +1,5 @@
+mutation CreateMessage($name: String!, $email: String!, $subject: String!, $message: String!) {
+  createContact(data: {email: $email, message: $message, name: $name, subject: $subject}) {
+    id
+  }
+}
